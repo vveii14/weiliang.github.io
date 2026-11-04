@@ -71,9 +71,9 @@
     margin-bottom: 56px;
   }
   .portrait{
-    width: 230px; height: 230px;
-    border-radius: 50%;
-    object-fit: cover;
+    width: 230px; height: 288px;
+    border-radius: 8px;
+    overflow: hidden;
     background:
       linear-gradient(135deg, #e9e3d2, #cfd9d2);
     display:flex; align-items:center; justify-content:center;
@@ -84,7 +84,7 @@
     border: 1px solid var(--rule);
   }
   .portrait img{
-    width:100%; height:100%; border-radius:50%; object-fit: cover; display:block;
+    width:100%; height:100%; object-fit: cover; object-position: center; display:block;
   }
   h1.name{
     font-family: var(--serif);
@@ -333,7 +333,7 @@
       gap: 24px;
       text-align: center;
     }
-    .portrait{ margin: 0 auto; width: 170px; height: 170px; font-size: 56px; }
+    .portrait{ margin: 0 auto; width: 170px; height: 213px; font-size: 56px; }
     h1.name{ font-size: 34px; }
     .contact{ justify-content: center; }
     .pub{ grid-template-columns: 1fr; }
@@ -477,7 +477,7 @@
           Zhiling Yan, Dingjie Song, Hanrong Zhang, <span class="me">Wei Liang</span>,
           Yuxuan Zhang, Yutong Dai, Lifang He, Philip S. Yu, Ran Xu, Xiang Li, Lichao Sun
         </div>
-        <div class="venue">EMNLP 2026 <span class="badge accepted">Accepted</span></div>
+        <div class="venue">EMNLP <span class="year">2026</span></div>
         <div class="pub-links">
           <a href="https://arxiv.org/abs/2606.06741"><i class="fas fa-file-pdf"></i>arXiv</a>
         </div>
@@ -492,7 +492,7 @@
           <a href="assets/papers/cross_view.pdf">Joint Imaging–ROI Representation Learning via Cross-View Contrastive Alignment for Brain Disorder Classification</a>
         </div>
         <div class="authors"><span class="me">Wei Liang</span>, Lifang He</div>
-        <div class="venue">MICCAI 2026 <span class="badge accepted">Accepted</span></div>
+        <div class="venue">MICCAI <span class="year">2026</span></div>
         <div class="pub-links">
           <a href="assets/papers/cross_view.pdf"><i class="fas fa-file-pdf"></i>Paper</a>
           <a href="#"><i class="fas fa-code"></i>Code (coming)</a>
@@ -674,7 +674,7 @@
   <section id="service">
     <h2 class="section-title">Academic Service</h2>
     <ul class="simple">
-      <li><strong>Reviewer:</strong> KDD 2027 · KDD 2026 · MICCAI 2026 · ACM HEALTH · IJMLC</li>
+      <li><strong>Reviewer:</strong> npj Digital Medicine · IPMI 2027 · KDD 2027 · KDD 2026 · MICCAI 2026 · ACM HEALTH · IJMLC</li>
     </ul>
   </section>
 
